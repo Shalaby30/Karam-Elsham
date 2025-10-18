@@ -64,8 +64,8 @@ const apps = [
         color: "from-green-500 to-green-600",
         links: [
             {
-                platform: "01000000000",
-                url: "https://wa.me/201000000000",
+                platform: "01226040862",
+                url: "https://wa.me/201226040862",
                 icon: MessageCircle,
             },
         ],
