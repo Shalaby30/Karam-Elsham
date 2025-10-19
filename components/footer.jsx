@@ -90,26 +90,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
-
-        {/* Divider */}
-        <div className="border-t border-background/20 my-8"></div>
-
-        {/* Bottom Footer */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-background/60">
-          <p>&copy; {currentYear} كرم الشام. جميع الحقوق محفوظة.</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">
-              شروط الاستخدام
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              سياسة الخصوصية
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              اتصل بنا
-            </a>
-          </div>
-        </div>
+  
       </div>
     </footer>
   )
