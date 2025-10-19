@@ -14,17 +14,20 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <img src="/logo.png" className="w-5 h-8" alt="" />
+                <img src="/logo.png" className="w-5 h-8" alt="Karam Elsham Logo" />
               </div>
               <h3 className="text-xl font-bold">كرم الشام</h3>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
               مطعم سوري فاخر يقدم أشهى الأطباق التقليدية بأعلى معايير الجودة والنظافة.
             </p>
+
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
               <a
                 href="https://www.facebook.com/karamelshaam"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary hover:bg-accent rounded-lg flex items-center justify-center transition-colors"
               >
                 <Facebook size={18} className="text-white" />
@@ -89,8 +92,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
 
-  
+        {/* Bottom Footer */}
+        <div className="border-t border-background/20 pt-6 text-center text-sm text-background/60">
+          © {currentYear} كرم الشام - جميع الحقوق محفوظة
+        </div>
       </div>
     </footer>
   )
