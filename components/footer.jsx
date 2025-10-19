@@ -91,21 +91,6 @@ export default function Footer() {
           </div>
 
           {/* Newsletter */}
-          <div className="space-y-4">
-            <h4 className="font-bold text-lg">اشترك في النشرة</h4>
-            <p className="text-background/70 text-sm">احصل على أحدث العروض والأخبار</p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="بريدك الإلكتروني"
-                className="flex-1 bg-background/10 border border-background/20 rounded-lg px-4 py-2 text-background placeholder:text-background/50 focus:outline-none focus:border-accent"
-              />
-              <button className="bg-primary hover:bg-accent px-4 py-2 rounded-lg transition-colors font-semibold">
-                اشترك
-              </button>
-            </div>
-          </div>
-        </div>
 
         {/* Divider */}
         <div className="border-t border-background/20 my-8"></div>
